@@ -1,29 +1,3 @@
-# from PyQt5 import QtWidgets
-# from PyQt5.QtWidgets import QApplication, QMainWindow
-# import sys
-
-
-# def window():
-# 	app = QApplication(sys.argv)
-# 	win = QMainWindow()
-# 	win.setGeometry(200, 200, 300, 300)
-# 	win.setWindowTitle("Clipboard History")
-
-# 	label = QtWidgets.QLabel(win)
-# 	label.setText("Management System")
-# 	label.move(50, 50)
-
-# 	app.clipboard().dataChanged.connect(lambda: changed(app.clipboard()))
-
-
-# 	win.show()
-# 	sys.exit(app.exec_())
-
-# def changed(clipboard):
-# 	print(clipboard.text())
-
-# window()
-
 import sys
 from PyQt5 import Qt, QtCore
 from PyQt5.QtWidgets import QMessageBox, QHeaderView, QMainWindow, QApplication, QWidget, QAction, QTableWidget, QTableWidgetItem, QVBoxLayout
